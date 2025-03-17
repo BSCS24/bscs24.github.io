@@ -20,7 +20,7 @@ const filesFirst: Options["sortFn"] = (a, b) => {
     })
   }
   // Files over folders
-  if (a.isFolder && !b.isFolder) {
+  if (!a.isFolder && b.isFolder) {
     return -1
   } else {
     return 1
