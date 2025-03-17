@@ -18,26 +18,21 @@ Let $f: A \to B$, then $f$ is a **bijection** if and only if $f$ is both **injec
 
 ## Examples
 
-> [!Example]
-> Suppose 4 *functions*, $f$, $g$, $h$, and $i$. Determine if they are **injective**, **surjective**, or **bijective**.
+> [!Question]
+> Determine if each *function* is **injective**, **surjective**, or **bijective**.
 > 
 > 1. $f: \mathbb{Z} \to \mathbb{Z}$ defined by $f(n) = 3n$.
 > > [!Todo]- Answer
 > > 
-> > $f$ is not *surjective* because the [[Function Definitions#Range|range]] is only the [[Set Definitions#Set|set]] of integer multiples of 3, but it is *injective* because no two integers map to the same integer multiple of 3.
+> > $f$ is not *surjective* because the [[Function Definitions#Range|range]] is only the [[Set Definitions#Set|set]] of integer multiples of 3, but it is **injective** because no two integers map to the same integer multiple of 3.
 > 
 > 2. $g: \{ 1, 2, 3 \} \to \{ a, b, c \}$ defined by $g(1) = c, \: g(2) = a$ and $g(3) = a$.
 > > [!Todo]- Answer
 > > 
 > > $g$ is not *injective* because $g(2)$ and $g(3)$ are the same [[Set Definitions#Element|element]] of the [[Function Definitions#Codomain|codomain]]. This is okay since each [[Set Definitions#Element|element]] in the [[Function Definitions#Domain|domain]] still has only **one output**. It is also not *surjective* because not all [[Set Definitions#Element|elements]] in the [[Function Definitions#Codomain|codomain]] are mapped to by the [[Function Definitions#Domain|domain]].
 > 
-> 3. $h: \mathbb{N} \to \mathbb{N}$ defined by $h(n) = \frac{n}{2}$.
+> 3. $h: \{ 1, 2, 3 \} \to \{ a, b, c \}$ defined by $h(1) = a, \: h(2) = b$ and $h(3) = c$.
 > > [!Todo]- Answer
 > > 
-> > $h$ is not a *function* because not every *input* has an *output*. Where does $h$ send $3$? The rule says that $h(3) = \frac{3}{2}$, but $\frac{3}{2}$ is not an [[Set Definitions#Element|element]] of the [[Function Definitions#Codomain|codomain]]. Therefore, $h$ is neither *injective* nor *surjective*.
-> 
-> 4. $i: \{ 1, 2, 3 \} \to \{ a, b, c \}$ defined by $i(1) = a, \: i(2) = b$ and $i(3) = c$.
-> > [!Todo]- Answer
-> > 
-> > $i$ is a **bijection** because it is both *injective* and *surjective*. No two [[Set Definitions#Element|elements]] in the [[Function Definitions#Domain|domain]] map to the same [[Set Definitions#Element|element]] in the [[Function Definitions#Domain|codomain]] and every [[Set Definitions#Element|element]] in the [[Function Definitions#Codomain|codomain]] is mapped to by the [[Function Definitions#Domain|domain]].
+> > $h$ is a **bijection** because it is both *injective* and *surjective*. No two [[Set Definitions#Element|elements]] in the [[Function Definitions#Domain|domain]] map to the same [[Set Definitions#Element|element]] in the [[Function Definitions#Domain|codomain]] and every [[Set Definitions#Element|element]] in the [[Function Definitions#Codomain|codomain]] is mapped to by the [[Function Definitions#Domain|domain]].
 
