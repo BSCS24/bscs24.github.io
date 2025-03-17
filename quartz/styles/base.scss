@@ -202,8 +202,12 @@ a {
         display: flex;
         height: unset;
         flex-direction: row;
-        padding: 0;
-        padding-top: 2rem;
+        // padding: 0;
+        // padding-top: 2rem;
+        // Expand sidebar a bit so it hides the background (mobile)
+        padding: 1rem 0.5rem 0.25rem !important;
+        width: calc(100% + 2rem) !important;
+        margin: 0 -1rem !important;
       }
     }
 

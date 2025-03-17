@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "bscs24.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian", "!(__Media)**/!(*.md)", "!(*.md)"],
+    ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
