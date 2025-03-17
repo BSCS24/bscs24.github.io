@@ -1,4 +1,3 @@
-## Definition
 
 Discrete mathematics involves the study of objects, which are separated or spaced apart from each other. For example, finite sets and the set of integers are discrete sets, while the set of real numbers would be considered to be a continuous, or non-discrete, set of objects.
 
@@ -25,4 +24,4 @@ Discrete mathematics involves the study of objects, which are separated or space
 
 ## Functions and Relations
 
-1. [[Functions Definition]]
+1. [[Function Definitions]]
