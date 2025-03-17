@@ -8,7 +8,7 @@ BS Computer Science Notes.
 
 > [!Warning] Work In Progress
 > 
-> This site is ~~perpetually~~ a WIP! Help us ==follow the path of Erudition== by <u>*contributing*!</u>
+> This site is ~~perpetually~~ a **WIP!** Help us ==follow the path of Erudition== by *contributing*!
 
 ## Subjects
 

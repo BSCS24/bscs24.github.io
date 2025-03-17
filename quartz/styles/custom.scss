@@ -27,3 +27,13 @@
     z-index: -1;
     opacity: 25%;
 }
+
+strong {
+    color: var(--secondary) !important;
+    filter: hue-rotate(90deg) !important;
+}
+
+em {
+    color: var(--secondary) !important;
+    filter: hue-rotate(180deg) !important;
+}
