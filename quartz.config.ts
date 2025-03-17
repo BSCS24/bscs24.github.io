@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "BSCS 24",
-    pageTitleSuffix: "",
+    pageTitleSuffix: " | BSCS 24",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -17,15 +17,15 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "bscs24.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "created",
+    ignorePatterns: ["private", "templates", ".obsidian", "!(__Media)**/!(*.md)", "!(*.md)"],
+    defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Inknut Antiqua",
+        body: "Reddit Mono",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
