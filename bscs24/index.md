@@ -2,7 +2,7 @@
 title: Home
 ---
 
-BS Computer Science Notes.
+BS Computer Science Notes. Not affiliated with any individual, institution, incorporeal lifeform, memetic entity, company, or non-profit organization.
 
 ![[herta-book.gif]]
 
